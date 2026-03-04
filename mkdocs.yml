@@ -8,3 +8,8 @@ site_dir: docs
 site_name: WeChat Articles
 theme:
   name: material
+
+extra_css:
+  - css/no-sidebar.css
+extra_javascript:
+  - js/no-sidebar.js

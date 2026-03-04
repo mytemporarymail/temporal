@@ -1,0 +1,8 @@
+/* hide the primary sidebar when a "real" article is shown */
+@media (min-width: 768px) {
+  body.page-without-nav .md-sidebar--primary {
+    display: none !important;
+  }
+  /* make the main column use the freed space */
+  body.page-without-nav .md-main { margin-left: 0; }
+}
