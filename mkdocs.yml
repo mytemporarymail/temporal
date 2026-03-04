@@ -1,4 +1,8 @@
 docs_dir: markdown
+extra_css:
+- css/no-sidebar.css
+extra_javascript:
+- js/no-sidebar.js
 nav:
 - Home: index.md
 - 对师，该如何供养？: 001.md
@@ -8,8 +12,3 @@ site_dir: docs
 site_name: WeChat Articles
 theme:
   name: material
-
-extra_css:
-  - css/no-sidebar.css
-extra_javascript:
-  - js/no-sidebar.js
